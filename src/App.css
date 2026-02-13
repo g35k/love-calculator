@@ -16,6 +16,8 @@ html, body {
   margin: 0;
   color: var(--text);
   font-family: "Ledger", serif;
+  width: 100%;
+  overflow-x: hidden;
 }
 
 .page {
@@ -26,6 +28,7 @@ html, body {
   justify-content: center;
   background: linear-gradient(to bottom, var(--bg-top), var(--bg-bottom));
   position: relative;
+  overflow-x: hidden;
   overflow: hidden;
 }
 
@@ -103,9 +106,37 @@ html, body {
 }
 
 /* Hide on smaller screens */
-@media (max-width: 900px) {
-  .sideHearts { display: none; }
+@media (max-width: 700px) {
+  .card {
+    width: min(92vw, 520px);
+    padding: 22px;
+    border-radius: 24px;
+  }
+
+  .controls {
+    grid-template-columns: 1fr;
+    justify-items: center;
+    width: 100%;
+  }
+
+  .field {
+    width: 100%;
+  }
+
+  .input {
+    width: 100%;
+    max-width: 420px;
+  }
+
+  .btn {
+    width: min(240px, 90%);
+  }
+
+  .heartWrap {
+    width: min(420px, 88vw);
+  }
 }
+
 
 /* Card container */
 .card {
