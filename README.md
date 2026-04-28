@@ -10,7 +10,7 @@ Type two names, hit **test!**, and get a playful compatibility score from `0%` t
 ## Preview
 
 ### Main Calculator
-![Love Calculator UI](src/assets/calculator.png)
+![Love Calculator UI](src/assets/calculator.png?v=2)
 
 ### Match Result Example
 ![Love Match Result](src/assets/match.png)
