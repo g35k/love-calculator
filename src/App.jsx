@@ -15,7 +15,12 @@ function pairKey(a, b) {
 }
 
 // Rigged pairs (case/spacing insensitive because of normalize + pairKey)
-const riggedPairs = new Set([pairKey("erika", "kayla"), pairKey("サメ", "kela")]);
+// Add your own names below: pairKey("name one", "name two")
+// Example: pairKey("alex", "sam")
+const riggedPairs = new Set([
+  pairKey("name one", "name two"),
+  pairKey("another name", "another name"),
+]);
 
 function lovePercent(nameA, nameB) {
   if (!nameA.trim() || !nameB.trim()) return 0;
