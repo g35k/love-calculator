@@ -10,10 +10,10 @@ Type two names, hit **test!**, and get a playful compatibility score from `0%` t
 ## Preview
 
 ### Main Calculator
-![Love Calculator UI](assets/calculator.png)
+![Love Calculator UI](src/assets/calculator.png)
 
 ### Match Result Example
-![Love Match Result](assets/match.png)
+![Love Match Result](src/assets/match.png)
 
 ## Features
 
@@ -78,7 +78,7 @@ love-calculator/
 │   ├── App.jsx
 │   ├── App.css
 │   └── main.jsx
-├── assets/                  # README screenshots go here
+├── src/assets/              # README screenshots go here
 ├── index.html
 └── package.json
 ```
